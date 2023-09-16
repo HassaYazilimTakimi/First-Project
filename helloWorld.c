@@ -8,6 +8,8 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 #include <stdio.h>
 
+// mehmet ali gok deneme commit.
+
 int main ()
 {
     int x,y,t,c,ca,b;
