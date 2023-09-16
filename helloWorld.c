@@ -12,22 +12,18 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 int main ()
 {
-    int x,y,t,c,ca,b;
-    printf("1.sayiyi giriniz: ");
-    scanf("%d",&x);
-    printf("2.sayiyi giriniz: ");
-    scanf("%d",&y);
-
-    t=x+y;
-    c=x-y;
-    ca=x*y;
-    b=x/y;
-
-    printf("Toplam sonucu: %d\n",t);
-    printf("Fark sonucu: %d\n",c);
-    print("Carpim sonucu: %d\n",ca);
-    printf("Bolumun sonucu: %d",b);
-
+    int i=1,fak=1,sayi;
+   
+   printf("Faktoriyeli alinacak sayiyi giriniz: ");
+   scanf("%d",&sayi);
+   
+   while(i<=sayi)
+   {
+   	
+   	fak=fak*i;
+   	i+=1;
+   }
+   printf("%d Sayisinin faktoriyeli: %d",sayi,fak);
     
     return 0;
 
